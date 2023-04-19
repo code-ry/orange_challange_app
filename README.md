@@ -32,7 +32,15 @@
 
 ![Trello](./assets/trello.png)
 
+## File Structure
+
+![file_structure](./assets/file_structure.png)
+
 ## Development environment
 
 ![dev_env](./assets/dev_environment.png)
+![nav](./assets/navigation_bar.png)
 
+## Testing
+
+![testing](./assets/tests.png)
