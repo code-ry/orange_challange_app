@@ -1,9 +1,11 @@
 import { View, Text } from "react-native";
+import { NavigationContainer } from '@react-navigation/native'
+import BottomTab from "./navigation/BottomTab";
 
 export default function App() {
   return (
-    <View style= {{flex: 1, alignItems: 'center', justifyContent: 'center', color: 'orange'}}>
-      <Text style= {{color: 'orange'}}>Orange Challenge App!</Text>
-    </View>
+    <NavigationContainer>
+      <BottomTab />
+    </NavigationContainer>
   );
 }
