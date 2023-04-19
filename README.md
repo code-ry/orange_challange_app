@@ -34,4 +34,5 @@
 
 ## Development environment
 
+![dev_env](./assets/dev_environment.png)
 
