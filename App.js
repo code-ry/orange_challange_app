@@ -4,6 +4,7 @@ import BottomTab from "./navigation/BottomTab";
 
 export default function App() {
   return (
+    // Navigation Bar
     <NavigationContainer>
       <BottomTab />
     </NavigationContainer>
