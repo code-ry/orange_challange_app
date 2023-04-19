@@ -1,43 +1,37 @@
-# My Universal React Project
+# Orange Challenge APP
 
-<p>
-  <!-- iOS -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
-    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  </a>
-  <!-- Android -->
-  <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample">
-    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  </a>
-  <!-- Web -->
-  <a href="https://docs.expo.dev/workflow/web/">
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </a>
-</p>
+## Objective
 
-## 🚀 How to use
+- To display knowledge of current web development processes by creating a simple 3 page application using React Native.
+- Communicate through code by use of comments to display knowledge to others for production purposes
+- Show correct project planning techniques through README file including user stories, identifying MVP and TrelloBoard.
+- Display organisation techniques through use of correct industry standard file structure for scalability and maintainability.
+- Write clean and dry code that is efficient
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` or `npm run start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
+## User Stories
 
-## Running/Modifying Native Code
+- As a user, they want to be able to view their financial situation through the use of a single application.
 
-You can generate native iOS and Android projects from your Expo config file (**app.json**/ **app.config.js**) by runnning `npx expo prebuild`. These native projects can then be compiled and run via XCode and Android Studio.
+- As a user, they want to be able to view their accounts too assess their financial situation
 
-> 💡 Learn more about [native code in Expo](https://docs.expo.dev/workflow/customizing/)
+- As a user, they want to be able to view their current expenditures
 
-## Publishing
+- As a user, they want to be able to sort their expenditures into different categories
 
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
+## Minimum Viable Product
 
-## 📝 Notes
+- Users are directed to Home page that displays their financial history at a glance, including a graph that displays total value and a list of current financial account levels.
 
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
+- Users can navigate to their Expenses, Portfolio and Accounts via navigation bar.
+
+- Expenses Screen shows Easy to read pie chart showing current expenditures as well as Top Spending categories
+
+- Users can navigate from Expenses screen to view All Spending Categories.
+
+## Trello Board
+
+![Trello](./assets/trello.png)
+
+## Development environment
+
+
