@@ -2,6 +2,8 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { accounts } from '../mock_database/data'
 
+// Component to map through a list of data from incoming JSON fetch request and render as components.
+
 const CashAccountList = () => {
     return (
         <View>

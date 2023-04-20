@@ -17,7 +17,6 @@ const ExpensesScreen = () => {
             <View style= {commonStyles.mainContainer}>
                 <View style={commonStyles.container}>
                     <View>
-                        
                         <Image
                             style={commonStyles.image}
                             source ={require('../../assets/images/pie_graph.png')}
@@ -29,6 +28,7 @@ const ExpensesScreen = () => {
                             <Text style= {commonStyles.headingText}>Top Spending Categories</Text>
                         </View>
                         
+                        {/* Component to render list of expenses */}
                         <ExpensesList />
 
                         <View style={commonStyles.navigationTab}>

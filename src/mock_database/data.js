@@ -1,5 +1,7 @@
 import { Image, StyleSheet } from 'react-native'
 
+// Mock data in JSON format that represents incoming data from a fetch request to database
+
 const styles = StyleSheet.create({
 
     cashIcon:{
