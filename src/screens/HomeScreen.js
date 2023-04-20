@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Text, ScrollView, Image, Button } from 'react-native'
-import commonStyles from '../styles/common'
+import commonStyles from '../styles/commonStyles'
 import CashAccountList from '../components/CashAccountList'
 
 const HomeScreen = () => {
