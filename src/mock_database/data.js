@@ -1,68 +1,11 @@
 import { Image, StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-    mainContainer: {
-        alignItems: 'center',
-    },
-    container: {
-        padding: 20,
-        width: '100%',
-        maxWidth: 500,
-        alignItems: 'stretch',
-    },
-    graph: {
-        width: '100%',
-        resizeMode: 'stretch'
-    },
-    listContainer: {
-        flex: 1,
-        paddingTop: 20,
 
-    },
-    cashHeading: {
-        padding: 10,
-        backgroundColor: 'white',
-        justifyContent: 'center',
-        marginBottom: 2,
-        height: 70
-    },
-    headingText: {
-        fontWeight: 'bold',
-        fontSize: 20
-    },
-    cashAccount:{
-        flexDirection: 'row',
-        height: 70,
-        backgroundColor: 'white',
-        marginBottom: 2,
-    },
-    cashIconContainer:{
-        flex: 1,
-        backgroundColor: 'white',
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
     cashIcon:{
         width: 40,
         height: 40,
         resizeMode: 'stretch'
-    },
-    cashInfo:{
-        flex: 3,
-        backgroundColor: 'white',
-        justifyContent: 'center'
-    },
-    cashInfoTitle: {
-        fontSize: 15
-    },
-    cashInfoAccount: {
-        fontSize: 20
-    },
-    cashAmount:{
-        flex: 2,
-        backgroundColor: 'white',
-        justifyContent: 'center',
-        alignItems: 'center'
     }
 })
 
@@ -93,5 +36,43 @@ const accounts = [
     },
 ]
 
-export default accounts
+const expenses = [
+    { 
+        title: 'HOME & UTILITIES',
+        amount: '3296.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/plug.png')}/>
+    },
+    { 
+        title: 'TRAVEL',
+        amount: '4296.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/travel.png')}/>
+    },
+    { 
+        title: 'RIDE SHARING',
+        amount: '6000.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/uber.png')}/>
+    },
+    { 
+        title: 'GROCERIES',
+        amount: '1296.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/grocery.png')}/>
+    },
+    { 
+        title: 'DRINKS',
+        amount: '396.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/soda.png')}/>
+    },
+    { 
+        title: 'RENT',
+        amount: '3296.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/house.png')}/>
+    },
+    { 
+        title: 'INSURANCE',
+        amount: '896.98',
+        icon: <Image style={styles.cashIcon} source={require('../../assets/icons/bank.png')}/>
+    }
+]
+
+export { accounts, expenses }
 

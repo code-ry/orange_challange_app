@@ -1,28 +1,43 @@
 import React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, ScrollView, Image, TouchableOpacity } from 'react-native'
+import commonStyles from '../styles/common'
+import ExpensesList from '../components/ExpenseList'
 
-// Expenses Graph fetching data from expenses and translating to graph.
 
-// Top Spending Category component mapping through list of Expenses using FLATLIST.
-// Order components by highest VALUE ID
+
+const ArrowButton = ({ onPress, title }) => (
+    <TouchableOpacity onPress={onPress} style={styles.appButtonContainer}>
+      <Text style={styles.appButtonText}>{title}</Text>
+    </TouchableOpacity>
+)
 
 const ExpensesScreen = () => {
     return (
-        <View style= {styles.container}>
-            <Text style= {styles.titleText}>Expenses Screen</Text>
-        </View>
+        <ScrollView>
+            <View style= {commonStyles.mainContainer}>
+                <View style={commonStyles.container}>
+                    <View>
+                        
+                        <Image
+                            style={commonStyles.image}
+                            source ={require('../../assets/images/pie_graph.png')}
+                        />
+                    </View>
+                    
+                    <View style={ commonStyles.listContainer }>
+                        <View style={commonStyles.headingContainer}>
+                            <Text style= {commonStyles.headingText}>Top Spending Categories</Text>
+                        </View>
+                        
+                        <ExpensesList />
+
+                    </View>
+                </View>
+            </View>
+        </ScrollView>
     )
 }
 
 export default ExpensesScreen
 
-const styles = StyleSheet.create({
-    titleText: {
-        color: 'orange'
-    },
-    container :{
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-})
+const styles = StyleSheet.create({})
