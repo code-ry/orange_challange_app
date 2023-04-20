@@ -31,6 +31,10 @@ const ExpensesScreen = () => {
                         
                         <ExpensesList />
 
+                        <View style={commonStyles.navigationTab}>
+                            <View><Text>View all categories</Text></View>
+                            <Image style={commonStyles.arrowButton} source ={require('../../assets/icons/arrow.png')}/>
+                        </View>
                     </View>
                 </View>
             </View>

@@ -8,10 +8,6 @@ import PortfolioScreen from '../src/screens/PortfolioScreen';
 import BankAccountScreen from '../src/screens/BankAccountScreen';
 import MoreScreen from '../src/modals/MoreScreen';
 
-import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-
-// const Tab = createMaterialBottomTabNavigator();
-
 const Tab = createBottomTabNavigator();
 
 const BottomTab = () => {

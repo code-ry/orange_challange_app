@@ -1,26 +1,13 @@
 import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
-
-// All Spending Category component mapping through list of ALL Expenses using FLATLIST.
-
+import ExpensesList from '../components/ExpenseList'
 
 const SpendingCategoriesScreen = () => {
     return (
-        <View style= {styles.container}>
-            <Text style= {styles.titleText}>All Spending Categories</Text>
-        </View>
+        <ExpensesList />
     )
 }
 
 export default SpendingCategoriesScreen
 
-const styles = StyleSheet.create({
-    titleText: {
-        color: 'orange'
-    },
-    container :{
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-})
+const styles = StyleSheet.create({})

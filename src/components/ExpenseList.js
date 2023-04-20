@@ -2,8 +2,6 @@ import React from 'react'
 import { StyleSheet, Text, View, Image, Pressable, Alert } from 'react-native'
 import { expenses } from '../mock_database/data'
 
-import { IconButton, Colors } from 'react-native-paper';
-
 const ExpensesList = () => {
     return (
         <View>
@@ -12,7 +10,7 @@ const ExpensesList = () => {
                     <View style={styles.iconContainer}>{expense.icon}</View>
                     <View style={styles.ExpenseInfoContainer}>
                         <Text style={styles.listInfoTitle}>{expense.title}</Text>
-                        <Text style={styles.expenseAmount}>{expense.amount}</Text>
+                        <Text style={styles.expenseAmount}>${expense.amount} spent</Text>
                     </View>
                     <View style={styles.arrowButtonContainer}>
                         <Pressable>

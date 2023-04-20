@@ -9,9 +9,11 @@ const commonStyles = StyleSheet.create({
         width: '100%',
         maxWidth: 500,
         alignItems: 'stretch',
+        paddingBottom: 100
     },
     image: {
         width: '100%',
+        height: 300,
         resizeMode: 'stretch'
     },
     listContainer: {
@@ -29,6 +31,18 @@ const commonStyles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 20
     },
+    navigationTab: {
+        flexDirection: 'row',
+        padding: 20,
+        height: 70,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+    arrowButton: {
+        width: 20,
+        height: 20
+    }
 })
 
 export default commonStyles
