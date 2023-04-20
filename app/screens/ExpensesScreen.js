@@ -2,7 +2,6 @@ import React from 'react'
 import { StyleSheet, View, Text, ScrollView, Image, TouchableOpacity, Pressable } from 'react-native'
 import commonStyles from '../globals/styles/GlobalStyles'
 import TopExpensesList from '../components/TopExpenses'
-import ExpensesList from '../components/ExpenseList'
 
 const ExpensesScreen = ({ navigation }) => {
     return (
@@ -21,7 +20,8 @@ const ExpensesScreen = ({ navigation }) => {
                             <Text style= {commonStyles.headingText}>Top Spending Categories</Text>
                         </View>
                         
-                        {/* Component to render list of expenses */}
+                        {/* Component to render list of TOP expenses (maximum 6) */}
+
                         <TopExpensesList />
 
                         <Pressable onPress={() => navigation.navigate('SpendingCategories')}>

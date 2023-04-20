@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native'
 
+// Global Styles that are used across the application
+
 const commonStyles = StyleSheet.create({
     mainContainer: {
         alignItems: 'center',

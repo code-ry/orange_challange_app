@@ -20,6 +20,8 @@ export default function Navigation () {
   
   const Stack = createNativeStackNavigator()
   
+// Stack Navigation Layout and Styling
+
   const RootNavigator = (() => {
     return (
       <Stack.Navigator>
@@ -43,6 +45,7 @@ export default function Navigation () {
   
 const Tab = createBottomTabNavigator()
 
+// Tab Navigation Layout and Styling
 
 const BottomTab = () => {
     return (

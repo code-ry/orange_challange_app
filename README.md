@@ -28,19 +28,23 @@
 
 - Users can navigate from Expenses screen to view All Spending Categories.
 
+## Final Product
+
+![final_product](./app/assets/images/final_product.png)
+
 ## Trello Board
 
-![Trello](./assets/images/trello.png)
+![Trello](./app/assets/images/trello.png)
 
 ## File Structure
 
-![file_structure](./assets/images/file_structure.png)
+![file_structure](./app/assets/images/file_structure.png)
 
 ## Development environment
 
-![dev_env](./assets/images/dev_environment.png)
+![dev_env](./app/assets/images/dev_environment.png)
 ![nav](./assets/images/navigation_bar.png)
 
 ## Testing
 
-![testing](./assets/images/tests.png)
+![testing](./app/assets/images/tests.png)

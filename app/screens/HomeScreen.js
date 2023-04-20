@@ -20,7 +20,8 @@ const HomeScreen = () => {
                             <Text style= {commonStyles.headingText}>Cash</Text>
                         </View>
 
-                        {/* Component to render list of expenses */}
+                        {/* Component to render list of current Account amounts */}
+
                         <CashAccountList />
 
                     </View>

@@ -10,6 +10,8 @@ const SpendingCategoriesScreen = () => {
                 <Text style= {commonStyles.headingText}>All Spending Categories</Text>
             </View>
 
+            {/* Component to render all Expenses in no particular order */}
+
             <ExpensesList />
 
         </ScrollView>

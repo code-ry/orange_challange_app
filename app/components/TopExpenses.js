@@ -4,10 +4,9 @@ import { expenses } from '../mock_database/Data'
 
 // Component to map through a list of data from incoming JSON fetch request and render as components.
 
+// Sort through ALL expenses array and return new array in descending order of amout property
+
 const TopExpenses = expenses.slice().sort((a, b) => parseFloat(b.amount) - parseFloat(a.amount));
-
-
-
 
 const TopExpensesList = () => {
     return (
