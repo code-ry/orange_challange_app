@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, Text, ScrollView } from 'react-native'
 import ExpensesList from '../components/ExpenseList'
-import commonStyles from '../styles/commonStyles'
+import commonStyles from '../globals/styles/GlobalStyles'
 
 const SpendingCategoriesScreen = () => {
     return (

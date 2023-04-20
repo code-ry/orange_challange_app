@@ -1,6 +1,6 @@
 import React from 'react'
-import { StyleSheet, View, Text, ScrollView, Image, Button } from 'react-native'
-import commonStyles from '../styles/commonStyles'
+import { StyleSheet, View, Text, ScrollView, Image } from 'react-native'
+import commonStyles from '../globals/styles/GlobalStyles'
 import CashAccountList from '../components/CashAccountList'
 
 const HomeScreen = () => {
@@ -11,7 +11,7 @@ const HomeScreen = () => {
                     <View>
                         <Image
                             style={commonStyles.image}
-                            source ={require('../../assets/images/cash_graph.png')}
+                            source ={require('../assets/images/cash_graph.png')}
                         />
                     </View>
 

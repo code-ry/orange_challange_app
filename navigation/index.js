@@ -1,15 +1,14 @@
+import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Octicons, Ionicons, MaterialIcons, Entypo } from '@expo/vector-icons' 
-import HomeScreen from '../src/screens/HomeScreen';
-import ExpensesScreen from '../src/screens/ExpensesScreen';
-import PortfolioScreen from '../src/screens/PortfolioScreen';
-import BankAccountScreen from '../src/screens/BankAccountScreen';
-import MoreScreen from '../src/modals/MoreScreen';
-import SpendingCategoriesScreen from '../src/screens/SpendingCategoriesScreen'
+import { NavigationContainer } from '@react-navigation/native'
+import { Octicons, Ionicons, MaterialIcons, Entypo } from '@expo/vector-icons'
+import BankAccountScreen from '../app/screens/BankAccountScreen'
+import ExpensesScreen from '../app/screens/ExpensesScreen'
+import HomeScreen from '../app/screens/HomeScreen'
+import MoreScreen from '../app/modals/MoreScreen'
+import PortfolioScreen from '../app/screens/PortfolioScreen'
+import SpendingCategoriesScreen from '../app/screens/SpendingCategoriesScreen'
 
 export default function Navigation () {
     return (
