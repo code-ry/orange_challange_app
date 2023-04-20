@@ -30,17 +30,17 @@
 
 ## Trello Board
 
-![Trello](./assets/trello.png)
+![Trello](./assets/images/trello.png)
 
 ## File Structure
 
-![file_structure](./assets/file_structure.png)
+![file_structure](./assets/images/file_structure.png)
 
 ## Development environment
 
-![dev_env](./assets/dev_environment.png)
-![nav](./assets/navigation_bar.png)
+![dev_env](./assets/images/dev_environment.png)
+![nav](./assets/images/navigation_bar.png)
 
 ## Testing
 
-![testing](./assets/tests.png)
+![testing](./assets/images/tests.png)
